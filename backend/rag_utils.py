@@ -60,7 +60,7 @@ def rag(
         top_p=top_p,
         max_tokens=max_tokens,
         openai_api_key=os.getenv('OPENAI_API_KEY'),
-        openai_api_base=os.getenv('OPENAI_API_BASE')
+        openai_api_base=os.getenv('OPENAI_BASE_URL')
     )
 
     # Retrieve relevant chunks
